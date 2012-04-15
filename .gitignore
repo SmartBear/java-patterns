@@ -1,2 +1,5 @@
-patterns.iml
+*.iml
 .idea/
+.project
+.classpath
+target/
