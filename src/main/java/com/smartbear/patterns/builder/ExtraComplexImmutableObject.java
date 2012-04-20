@@ -5,7 +5,7 @@ public class ExtraComplexImmutableObject implements ComplexImmutable{
     private final ComplexImmutableObject compositeBehavior;
     private final String aspect;
 
-    public ExtraComplexImmutableObject(ComplexImmutableObject compositeBehavior, String aspect) {
+    ExtraComplexImmutableObject(ComplexImmutableObject compositeBehavior, String aspect) {
         this.compositeBehavior = compositeBehavior;
         this.aspect = aspect;
     }
