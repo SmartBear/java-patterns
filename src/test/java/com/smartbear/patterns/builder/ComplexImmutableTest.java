@@ -7,7 +7,7 @@ import static org.junit.Assert.assertTrue;
 
 public class ComplexImmutableTest {
 
-    private final ComplexImmutable.ComplexImmutableBuilder builder = new ComplexImmutable.ComplexImmutableBuilder();
+    private final ComplexImmutableBuilder builder = new ComplexImmutableBuilder();
 
     @Test
      public void testComplexImmutable(){
