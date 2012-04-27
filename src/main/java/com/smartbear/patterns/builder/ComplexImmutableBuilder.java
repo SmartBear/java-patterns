@@ -1,6 +1,5 @@
 package com.smartbear.patterns.builder;
 
-
 public class ComplexImmutableBuilder
 {
 	public StrictModeConfigurator withConnectionTimeout( final int timeout )
